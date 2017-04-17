@@ -15,7 +15,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'driver' => env('SCOUT_DRIVER', 'elasticsearch'),
+=======
+    'driver' => env('SCOUT_DRIVER', 'algolia'),
+>>>>>>> b87cd5c6aa13cb89621b2c5ba1b9bf9b2b5363b5
 
     /*
     |--------------------------------------------------------------------------
@@ -54,6 +58,7 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'elasticsearch' => [
  'index' => env('ELASTICSEARCH_INDEX', 'laravel'),
 
@@ -63,5 +68,11 @@ return [
  ],
  ],
  ],
+=======
+    'algolia' => [
+        'id' => env('ALGOLIA_APP_ID', ''),
+        'secret' => env('ALGOLIA_SECRET', ''),
+    ],
+>>>>>>> b87cd5c6aa13cb89621b2c5ba1b9bf9b2b5363b5
 
 ];
